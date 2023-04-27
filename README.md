@@ -69,37 +69,37 @@
 
 ### 预览效果
 登陆页面
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/login.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/login.PNG)
 部门管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/dept.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/dept.PNG)
 菜单管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/menu.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/menu.PNG)
 权限管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/permission.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/permission.PNG)
 角色管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/role.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/role.PNG)
 用户管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/user.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/user.PNG)
 登陆日志管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/loginfo.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/loginfo.PNG)
 系统公告管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/notice.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/notice.PNG)
 缓存管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/cache.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/cache.PNG)
 客户管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/customer.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/customer.PNG)
 供应商管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/provider.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/provider.PNG)
 商品管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/goods.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/goods.PNG)
 商品进货管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/inport.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/inport.PNG)
 商品退货管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/output.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/output.PNG)
 商品销售管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/sales.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/sales.PNG)
 商品销售退货管理
-![](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/salesback.png)
+![](https://github.com/yeqifu/warehouse/blob/master/src/main/resources/static/images/salesback.PNG)
 
 ### 讨论
-有问题请在([issue])中讨论 或联系我QQ：1572294593，请注明来意，伸手党勿加~
+有问题请在([issue])中讨论 或联系我QQ：1784525940，请注明来意，伸手党勿加~
