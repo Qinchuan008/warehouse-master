@@ -85,7 +85,7 @@
 系统公告管理
 ![](https://github.com/Qinchuan008/warehouse/blob/master/src/main/resources/static/images/notice.png)
 缓存管理
-https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/cache.png
+![]([https://github.com/Qinchuan008/warehouse/blob/master/src/main/resources/static/images/notice.png](https://github.com/Qinchuan008/warehouse-master/blob/master/src/main/resources/static/images/cache.png))
 客户管理
 ![](https://github.com/Qinchuan008/warehouse/blob/master/src/main/resources/static/images/customer.png)
 供应商管理
