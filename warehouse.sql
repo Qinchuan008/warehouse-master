@@ -11,7 +11,7 @@
  Target Server Version : 80033
  File Encoding         : 65001
 
- Date: 25/04/2023 17:43:55
+ Date: 28/04/2023 12:28:34
 */
 
 SET NAMES utf8mb4;
@@ -273,6 +273,13 @@ CREATE TABLE `sys_loginfo`  (
 -- Records of sys_loginfo
 -- ----------------------------
 INSERT INTO `sys_loginfo` VALUES (295, '仓库管理员-admin', '0:0:0:0:0:0:0:1', '2023-04-25 09:25:27');
+INSERT INTO `sys_loginfo` VALUES (296, '仓库管理员-admin', '0:0:0:0:0:0:0:1', '2023-04-28 04:13:31');
+INSERT INTO `sys_loginfo` VALUES (297, '张一-zhangyi', '0:0:0:0:0:0:0:1', '2023-04-28 04:14:47');
+INSERT INTO `sys_loginfo` VALUES (298, '张六-zhangliu', '0:0:0:0:0:0:0:1', '2023-04-28 04:15:05');
+INSERT INTO `sys_loginfo` VALUES (299, '张六-zhangliu', '0:0:0:0:0:0:0:1', '2023-04-28 04:16:12');
+INSERT INTO `sys_loginfo` VALUES (300, '张一-zhangyi', '0:0:0:0:0:0:0:1', '2023-04-28 04:16:31');
+INSERT INTO `sys_loginfo` VALUES (301, '张六-zhangliu', '0:0:0:0:0:0:0:1', '2023-04-28 04:19:17');
+INSERT INTO `sys_loginfo` VALUES (302, '仓库管理员-admin', '0:0:0:0:0:0:0:1', '2023-04-28 04:25:20');
 
 -- ----------------------------
 -- Table structure for sys_notice
@@ -570,12 +577,13 @@ CREATE TABLE `sys_user`  (
 -- Records of sys_user
 -- ----------------------------
 INSERT INTO `sys_user` VALUES (1, '仓库管理员', 'admin', '532ac00e86893901af5f0be6b704dbc7', '北京', 1, '超级管理员', 1, '2023-04-25 15:26:20', NULL, 1, 1, 0, '2023-04-24/admin.jpg', '04A93C74C8294AA09A8B974FD1F4ECBB');
-INSERT INTO `sys_user` VALUES (2, '张一', 'zhangyi', '532ac00e86893901af5f0be6b704dbc7', '上海', 1, '普通用户', 2, '2023-04-25 15:26:20', 0, 1, 2, 1, '2023-04-24/default.jpg', NULL);
-INSERT INTO `sys_user` VALUES (3, '张二', 'zhanger', '532ac00e86893901af5f0be6b704dbc7', '上海', 1, '普通用户', 3, '2023-04-25 15:26:20', 2, 1, 3, 1, '2023-04-24/default.jpg', NULL);
-INSERT INTO `sys_user` VALUES (4, '张三', 'zhangsan', '532ac00e86893901af5f0be6b704dbc7', '武汉', 1, '普通用户', 4, '2023-04-25 15:26:20', 0, 1, 4, 1, '2023-04-24/default.jpg', NULL);
-INSERT INTO `sys_user` VALUES (5, '张四', 'zhansgi', '532ac00e86893901af5f0be6b704dbc7', '武汉', 1, '普通用户', 5, '2023-04-25 15:26:20', 4, 1, 5, 1, '2023-04-24/default.jpg', NULL);
-INSERT INTO `sys_user` VALUES (6, '张五', 'zhanwgu', '532ac00e86893901af5f0be6b704dbc7', '深圳', 1, '普通用户', 6, '2023-04-25 15:26:20', NULL, 1, 6, 1, '2023-04-24/default.jpg', NULL);
-INSERT INTO `sys_user` VALUES (7, '张六', 'zhangliu', '532ac00e86893901af5f0be6b704dbc7', '深圳', 1, '普通用户', 7, '2023-04-25 15:26:20', 6, 1, 7, 1, '2023-04-24/default.jpg', NULL);
+INSERT INTO `sys_user` VALUES (2, '张一', 'zhangyi', 'b8935fd904683ecc4ae330893b4d39ae', '上海', 1, '基础数据管理员', 2, '2023-04-25 15:26:20', 0, 1, 2, 1, '2023-04-24/default.jpg', '434995F88EF44079B6E3B530022116FA');
+INSERT INTO `sys_user` VALUES (3, '张二', 'zhanger', 'bb98a99327f8ef11dca8a7e5a26b776d', '上海', 1, '基础数据管理员', 3, '2023-04-25 15:26:20', 2, 1, 3, 1, '2023-04-24/default.jpg', '149D7B2F59AA427BB96D03091DF2EA22');
+INSERT INTO `sys_user` VALUES (4, '张三', 'zhangsan', 'c4db5389ccf97f465e94bd79836a303d', '武汉', 1, '销售管理员', 4, '2023-04-25 15:26:20', 0, 1, 4, 1, '2023-04-24/default.jpg', 'E6A4667FA1E949F887B12BD0A0D0B936');
+INSERT INTO `sys_user` VALUES (5, '张四', 'zhansgi', '80850e0d99b3de31ef864a0445581ad2', '武汉', 1, '销售管理员', 5, '2023-04-25 15:26:20', 4, 1, 5, 1, '2023-04-24/default.jpg', '8706C928A6144A69BC773486E6BE0AEB');
+INSERT INTO `sys_user` VALUES (6, '张五', 'zhanwgu', '0411a99f92ea8c7d93a8bf23093829fa', '深圳', 1, '系统管理员', 6, '2023-04-25 15:26:20', 0, 1, 6, 1, '2023-04-24/default.jpg', '070D87ED8077415D940AF255FA957727');
+INSERT INTO `sys_user` VALUES (7, '张六', 'zhangliu', 'a4cafd88bfb5128bcb39ddd7b026d5b7', '深圳', 1, '系统管理员', 7, '2023-04-25 15:26:20', 6, 1, 7, 1, '2023-04-24/default.jpg', '637D428DB49B477B8D5847519A9AD656');
+INSERT INTO `sys_user` VALUES (8, '测试', 'ceshi', 'ad24a355ac800df6ab412c9ea22504fb', '北京', 1, '测试', 1, '2023-04-28 12:24:08', 1, 1, 8, 1, '2023-04-24/default.jpg', 'F0D7CB13CE8D4621AA6FE831665D8DE4');
 
 -- ----------------------------
 -- Table structure for sys_user_role
@@ -595,7 +603,10 @@ CREATE TABLE `sys_user_role`  (
 -- ----------------------------
 INSERT INTO `sys_user_role` VALUES (1, 1);
 INSERT INTO `sys_user_role` VALUES (2, 4);
-INSERT INTO `sys_user_role` VALUES (3, 6);
-INSERT INTO `sys_user_role` VALUES (4, 8);
+INSERT INTO `sys_user_role` VALUES (3, 4);
+INSERT INTO `sys_user_role` VALUES (4, 6);
+INSERT INTO `sys_user_role` VALUES (5, 6);
+INSERT INTO `sys_user_role` VALUES (6, 8);
+INSERT INTO `sys_user_role` VALUES (7, 8);
 
 SET FOREIGN_KEY_CHECKS = 1;

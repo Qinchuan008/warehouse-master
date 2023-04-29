@@ -32,6 +32,10 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
 
 #配置mybatisplus
 mybatis-plus:
@@ -52,6 +56,7 @@ shiro:
   - /login/login*
   - /login/getCode
   - /resources/**
+  - /customer/deleteCustomer*
   login-url: /index.html
   log-out-url: /login/logout*
   authc-ulrs:
