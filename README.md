@@ -66,7 +66,7 @@
 * 服务器：Tomcat 8.5
 * 数据库：MySQL 5.0
 * 代码托管平台：GitHub
-* 图片素材默认存储在D盘的upload文件夹，下载：https://wwhl.lanzouw.com/b04jx7lkf 密码:fb06 下载之后解压到D盘即可
+* 图片素材默认存储在D盘的upload文件夹，下载：https://wwhl.lanzouw.com/b04jx7lkf，密码:fb06，下载之后解压到D盘即可
 * 数据库的sql文件保存在项目的根目录，默认数据库用户名：root，密码：123465
 ### 预览效果
 登陆页面
